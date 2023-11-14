@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(greenenergy.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1 {
+    font-size: 60px;
+}
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+button:hover {
+    background-color: #088178;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+}
+.text p {
+    font-size: 20px;
+}
+
+#solar {
+    display: flex;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 5px;
+    color: darkgreen;
+}
+dd{
+    font-size: 20px;
+}
+
+
+table{
+    height:300px;
+    width:100%;
+    padding:20px;
+    text-align: center;
+    color: white;
+    background-color: #088178;
+    border-color: white;
+    border: 10px solid white;
+    background-image:url("");
+    border-collapse:collapse;
+}
+.text5 {
+    background-image: url(green4.jpeg);
+}
+.text6{
+    text-align: center;
+}
+
+
+.text8 {
+    background-image: url(Solar\ banner.webp);
+}
+.text8 h2{
+    text-align: center;
+}
+
+.text7 {
+    background-image: url(question.jpeg);
+}
+
+.text9{
+    background-image: url(Solar\ banner.webp);
+
+}
+.text10{
+    background-image: url(green6.jpeg);
+}
+
+h4{
+    font-size: 35px;
+    color: darkgreen;
+}
+
+.text11 {
+    background-image: url(green4.jpeg);
+}
